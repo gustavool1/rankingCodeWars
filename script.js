@@ -36,6 +36,8 @@ function creatingTable(){
     } 
 }
 
-
-
+let inputCheck = document.getElementById("blabal")
+if(inputCheck.checked){
+    alert("aaa")
+}
 
