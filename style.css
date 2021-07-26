@@ -414,12 +414,16 @@ table th{
 table tbody td{
     text-align: center;
     height: 50px;
+    cursor: pointer;
 }
+
 section{
     margin-top: 50px;
     display: flex;
     width: 100%;
     justify-content: center;
+}table tbody tr:hover{
+    color: rgb(218, 208, 208);
 }
 @media screen and (max-width:300px){
     body{
@@ -432,6 +436,9 @@ section{
     main{
         margin-top: 50px;
     }
+    table tbody tr:hover{
+        font-size: 16px;
+    }
 }
 @media screen and (min-width:301px) and (max-width:700px){
     body{
@@ -443,17 +450,24 @@ section{
     main{
         margin-top: 20px;
     }
+    table tbody tr:hover{
+        font-size: 19px;
+    }
 }
 
 @media screen and (min-width:701px){
     body{
         font-size: var(--font-sizeDesktop);
+        
     }
     header{
         margin-top: 50px;
     }
     main{
         margin-top: 50px;
+    }
+    table tbody tr:hover{
+        font-size: 23px;
     }
 }
 
