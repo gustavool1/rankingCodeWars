@@ -17,7 +17,7 @@ let nomesPont = [
 nomesPont.sort(function(a,b){
     return b.pontuacao - a.pontuacao
 })
-console.log(nomesPont)
+
 window.onload = creatingTable()
 function creatingTable(){
     let main = document.createElement("main")
