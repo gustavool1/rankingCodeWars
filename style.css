@@ -371,8 +371,9 @@ textarea {
 :root{
     --primary-color:grey;
     --primary-fontColor:white;
-    --font-sizeMobile:20px;
-    --font-SizeFold:15px
+    --font-sizeMobile:18px;
+    --font-SizeFold:15px;
+    --font-sizeDesktop:21px
 }
 
 body{
@@ -406,17 +407,53 @@ table th{
     width: 50%;
     text-align: center;
     height: 40px;
-    text-transform:uppercase
+    text-transform:uppercase;
+    font-weight: bold;
 }
 
 table tbody td{
     text-align: center;
     height: 50px;
 }
+section{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 @media screen and (max-width:300px){
     body{
         font-size: var(--font-SizeFold);
     }
+    
+    header{
+        margin-top: 50px;
+    }
+    main{
+        margin-top: 50px;
+    }
+}
+@media screen and (min-width:301px) and (max-width:700px){
+    body{
+        font-size: var(--font-sizeMobile);
+    }
+    header{
+        margin-top: 30px;
+    }
+    main{
+        margin-top: 20px;
+    }
 }
 
+@media screen and (min-width:701px){
+    body{
+        font-size: var(--font-sizeDesktop);
+    }
+    header{
+        margin-top: 50px;
+    }
+    main{
+        margin-top: 50px;
+    }
+}
 

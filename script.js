@@ -35,9 +35,9 @@ function creatingTable(){
         tableBody.appendChild(celula)
     } 
 }
+let checkContent = document.createElement('section')
 
-let inputCheck = document.getElementById("blabal")
-if(inputCheck.checked){
-    alert("aaa")
-}
-
+let p = document.createElement("p")
+p.innerHTML='Última atualização 27/07 as 9h00  <i class="far fa-clock"></i>'
+checkContent.appendChild(p)
+document.body.appendChild(checkContent)
