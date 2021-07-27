@@ -29,7 +29,7 @@ function creatingTable(){
     tableRanking.append(tableHeader)
     tableRanking.append(tableBody)
     main.append(tableRanking)
-    for(let i=0;i<5;i++){
+    for(let i=0;i<nomesPont.length;i++){
         let celula = document.createElement("tr")
         celula.innerHTML = `<td><a href='${nomesPont[i].perfil}' target=_blank>${nomesPont[i].nome}</a></td><td>${nomesPont[i].pontuacao}</td>`
         tableBody.appendChild(celula)
