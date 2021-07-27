@@ -58,13 +58,14 @@ let nomesPont = [
         let tableRanking = document.createElement("table")
         let tableHeader = document.createElement("thead")
         let tableBody = document.createElement("tbody")
-        tableHeader.innerHTML = '<th>Nick</th><th>Pontuação</th>'
+        tableHeader.innerHTML = '<th>Colocação</th><th>Nickname</th><th>Pontuação</th>'
         tableRanking.append(tableHeader)
         tableRanking.append(tableBody)
         main.append(tableRanking)
         for(let i=0;i<nomesPont.length;i++){
             let celula = document.createElement("tr")
-            celula.innerHTML = `<td><a href='${nomesPont[i].perfil}' target=_blank>${i+1} - ${nomesPont[i].nome}</a></td><td>${nomesPont[i].pontuacao}</td>`
+            celula.innerHTML = `<td>${i+1}º </td><td><a href='${nomesPont[i].perfil}' target=_blank>${nomesPont[i].nome}</a></td><td>${nomesPont[i].pontuacao}</td>`
+            celula.classList.add(`celula${i+1}`)
             tableBody.appendChild(celula)
             
         } 

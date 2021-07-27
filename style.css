@@ -48,7 +48,7 @@ table{
     margin: 0 auto;
 }
 table th{
-    width: 50%;
+    width: 30%;
     text-align: center;
     height: 40px;
     text-transform:uppercase;
@@ -61,6 +61,90 @@ table tbody td{
     cursor: pointer;
 }table tbody tr:hover{
     color: rgb(218, 208, 208);
+}
+
+.celula14 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking1 1s;
+}
+
+.celula13 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking2 1.5s;
+}
+
+.celula12 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking1 2s;
+}
+
+.celula11 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking2 2.5s;
+}
+
+.celula10 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking1 3s;
+}
+
+.celula9 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking2 3.5s;
+}
+
+.celula8 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking1 4s;
+}
+
+.celula7 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking2 4.5s;
+}
+
+.celula6 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking1 5s;
+}
+
+.celula5 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking2 5.5s;
+}
+
+.celula4 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking1 6s;
+}
+
+.celula3 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking2 6.5s;
+}
+
+.celula2 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking1 7s;
+}
+
+.celula1 {
+    position: relative;
+    animation-timing-function: ease-out;
+    animation: ranking3 7.5s;
 }
 
 section{
@@ -133,3 +217,17 @@ section{
 }
 
 
+@keyframes ranking1 {
+    from {left: -1000px}
+    to {left: 0px}
+}
+
+@keyframes ranking2 {
+    from {left: 1000px}
+    to {left: 0px}
+}
+
+@keyframes ranking3 {
+    from {top: -1000px}
+    to {top: 0px}
+}
