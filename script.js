@@ -32,7 +32,6 @@ function httpGet(url){
 }
 
 for(let item in nomesPont){
-    console.log(nomesPont[item].nome, httpGet(nomesPont[item].api_request));
     nomesPont[item].pontuacao = httpGet(nomesPont[item].api_request);
 }
 
