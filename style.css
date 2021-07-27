@@ -10,7 +10,7 @@
 body{
     background-color: var(--primary-color);
     color: var(--primary-fontColor);
-    background-image: url("https://opengameart.org/sites/default/files/Full%20Moon%20-%20background.png");
+    background-image: url("bg.jpg");
     background-repeat: no-repeat;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: var(--font-sizeMobile);
@@ -119,4 +119,17 @@ section{
         font-size: 23px;
     }
 }
+
+#retrieving {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
 
