@@ -84,6 +84,14 @@ section{
     table tbody tr:hover{
         font-size: 19px;
     }
+    section{
+        margin-top: 50px;
+        display: flex;
+        height: 200px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width:701px){
