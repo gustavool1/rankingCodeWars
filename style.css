@@ -59,6 +59,8 @@ table tbody td{
     text-align: center;
     height: 50px;
     cursor: pointer;
+}table tbody tr:hover{
+    color: rgb(218, 208, 208);
 }
 
 section{
@@ -66,8 +68,6 @@ section{
     display: flex;
     width: 100%;
     justify-content: center;
-}table tbody tr:hover{
-    color: rgb(218, 208, 208);
 }
 @media screen and (max-width:300px){
     body{

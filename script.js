@@ -1,18 +1,18 @@
 
 let nomesPont = [
-{nome:"AldenivanJr" ,pontuacao:174, perfil:"https://www.codewars.com/users/Aldenivan%20Jr"},
-{nome:"debgama", pontuacao: 165, perfil:"https://www.codewars.com/users/deb.gama"},
-{nome:"ericmartins02", pontuacao:455, perfil:"https://www.codewars.com/users/ericmartins02"},
-{nome:"EtnanSousa", pontuacao:204, perfil:"https://www.codewars.com/users/EtnanSousa"},
-{nome:"Fabricio_SantosBR", pontuacao:133, perfil:"https://www.codewars.com/users/Fabricio_SantosBR"},
-{nome:"GuilherminoLucas", pontuacao:539, perfil:"https://www.codewars.com/users/GuilherminoLucas"},
-{nome:"gustavool1", pontuacao:296, perfil:"https://www.codewars.com/users/gustavool1"},
-{nome:"IgorMGG", pontuacao:361, perfil:"https://www.codewars.com/users/IgorMGG"},
-{nome:"larissakoliveira", pontuacao:166, perfil:"https://www.codewars.com/users/larissakoliveira"},
-{nome:"smillyxD", pontuacao:159, perfil:"https://www.codewars.com/users/smillyxD"},
-{nome:"vinapro", pontuacao: 229, perfil:"https://www.codewars.com/users/vinapro"},
-{nome:"midrick", pontuacao: 259, perfil:"https://www.codewars.com/users/midrick"},
-{nome:"Nafly09", pontuacao:428, perfil:"https://www.codewars.com/users/Nafly09"}
+{nome:"AldenivanJr" ,pontuacao:188, perfil:"https://www.codewars.com/users/Aldenivan%20Jr"},
+{nome:"debgama", pontuacao: 175, perfil:"https://www.codewars.com/users/deb.gama"},
+{nome:"ericmartins02", pontuacao:479, perfil:"https://www.codewars.com/users/ericmartins02"},
+{nome:"EtnanSousa", pontuacao:218, perfil:"https://www.codewars.com/users/EtnanSousa"},
+{nome:"Fabricio_SantosBR", pontuacao:151, perfil:"https://www.codewars.com/users/Fabricio_SantosBR"},
+{nome:"GuilherminoLucas", pontuacao:597, perfil:"https://www.codewars.com/users/GuilherminoLucas"},
+{nome:"gustavool1", pontuacao:300, perfil:"https://www.codewars.com/users/gustavool1"},
+{nome:"IgorMGG", pontuacao:391, perfil:"https://www.codewars.com/users/IgorMGG"},
+{nome:"larissakoliveira", pontuacao:168, perfil:"https://www.codewars.com/users/larissakoliveira"},
+{nome:"smillyxD", pontuacao:176, perfil:"https://www.codewars.com/users/smillyxD"},
+{nome:"vinapro", pontuacao: 233, perfil:"https://www.codewars.com/users/vinapro"},
+{nome:"midrick", pontuacao: 280, perfil:"https://www.codewars.com/users/midrick"},
+{nome:"Nafly09", pontuacao:477, perfil:"https://www.codewars.com/users/Nafly09"}
 ]
 nomesPont.sort(function(a,b){
     return b.pontuacao - a.pontuacao
@@ -39,6 +39,6 @@ function creatingTable(){
 let checkContent = document.createElement('section')
 
 let p = document.createElement("p")
-p.innerHTML='Última atualização 27/07 as 9h00  <i class="far fa-clock"></i>'
+p.innerHTML='Última atualização 27/07 as 8h53  <i class="far fa-clock"></i>'
 checkContent.appendChild(p)
 document.body.appendChild(checkContent)
