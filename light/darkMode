@@ -28,3 +28,5 @@ input[type='checkbox']:before{
 input:checked[type='checkbox']:before{
     left: 40px;
 }
+
+maiores pontuadores da semana -> tabela
