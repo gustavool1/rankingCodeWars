@@ -40,6 +40,9 @@ function creatingTable(){
 let checkContent = document.createElement('section')
 
 let p = document.createElement("p")
-p.innerHTML='Última atualização 27/07 as 11h20  <i class="far fa-clock"></i>'
+let p1 = document.createElement("p")
+p1.innerHTML = '<br>Clique no nick e irá ser redirecionado para o perfil'
+p.innerHTML='Atualizado por API- Feito pelo Rafael Schug <i class="far fa-clock"></i>'
 checkContent.appendChild(p)
+checkContent.appendChild(p1)
 document.body.appendChild(checkContent)
