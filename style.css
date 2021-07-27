@@ -14,6 +14,19 @@ body{
     background-repeat: no-repeat;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: var(--font-sizeMobile);
+}a{
+    color: none;
+
+}
+a:link{
+    text-emphasis: none;
+    text-decoration: none;
+    color: var(--primary-fontColor);
+}
+a:visited{
+    color: var(--primary-fontColor);
+}a:hover{
+    color: rgb(219, 213, 213);;
 }
 main{
     width: 90%;
