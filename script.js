@@ -12,7 +12,8 @@ let nomesPont = [
 {nome:"smillyxD", pontuacao:176, perfil:"https://www.codewars.com/users/smillyxD"},
 {nome:"vinapro", pontuacao: 242, perfil:"https://www.codewars.com/users/vinapro"},
 {nome:"midrick", pontuacao: 282, perfil:"https://www.codewars.com/users/midrick"},
-{nome:"Nafly09", pontuacao:477, perfil:"https://www.codewars.com/users/Nafly09"}
+{nome:"Nafly09", pontuacao:477, perfil:"https://www.codewars.com/users/Nafly09"},
+{nome:"marcelochaves92", pontuacao:122, perfil:"https://www.codewars.com/users/marcelochaves92"}
 ]
 nomesPont.sort(function(a,b){
     return b.pontuacao - a.pontuacao
