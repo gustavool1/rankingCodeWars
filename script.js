@@ -40,25 +40,6 @@ let nomesPont = [
     }
     
     // =================================================================
-    function starting(){
-        let retrieving =document.querySelector('#retrieving')
-        let pRetrieving = document.querySelector("#retrieving>p")
-        let contRetrieving = 0
-        setInterval(() => {
-            contRetrieving++
-            if(contRetrieving<=3){
-                pRetrieving.innerHTML+='.'
-            }
-        }, 400)
-        setTimeout(()=>{
-            creatingTable();
-           retrieving.style.display = 'none';
-        }, 2000)
-    }
-    
-    
-    window.onload = starting()
-    
     function creatingTable(){
         nomesPont.sort(function(a,b){
             return b.pontuacao - a.pontuacao
@@ -80,13 +61,33 @@ let nomesPont = [
             tableBody.appendChild(celula)
             
         } 
-
+        let checkContent = document.createElement('section')
         let p = document.createElement("p")
         p.innerHTML='Valores atualizados em tempo real através da API do <em>Codewars</em> <i class="far fa-clock"></i>'
         checkContent.appendChild(p)
         document.body.appendChild(checkContent)
 
     }
-    let checkContent = document.createElement('section')
+    
+    function starting(){
+        let retrieving =document.querySelector('#retrieving')
+        let pRetrieving = document.querySelector("#retrieving>p")
+        let contRetrieving = 0
+        setInterval(() => {
+            contRetrieving++
+            if(contRetrieving<=3){
+                pRetrieving.innerHTML+='.'
+            }
+        }, 400)
+        setTimeout(()=>{
+            creatingTable();
+           retrieving.style.display = 'none';
+        }, 2000)
+    }
+    
+    
+    window.onload = starting()
+    
+    
 
 
