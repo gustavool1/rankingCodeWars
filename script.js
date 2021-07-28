@@ -40,15 +40,26 @@ let nomesPont = [
     }
     
     // =================================================================
+    function starting(){
+        let retrieving =document.querySelector('#retrieving')
+        let pRetrieving = document.querySelector("#retrieving>p")
+        let contRetrieving = 0
+        setInterval(() => {
+            contRetrieving++
+            if(contRetrieving<=3){
+                pRetrieving.innerHTML+='.'
+            }
+        }, 400)
+        setTimeout(()=>{
+            creatingTable();
+           retrieving.style.display = 'none';
+        }, 2000)
+    }
     
     
-    window.onload = setTimeout(()=>{
-        creatingTable();
-        document.querySelector('#retrieving').style.display = 'none';
-    }, 2000)
+    window.onload = starting()
     
     function creatingTable(){
-    
         nomesPont.sort(function(a,b){
             return b.pontuacao - a.pontuacao
         })

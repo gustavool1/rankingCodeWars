@@ -14,11 +14,11 @@ html {
 body{
     background-color: var(--primary-color);
     color: var(--primary-fontColor);
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(41, 39, 39);
+    background-repeat: repeat;
+    
     font-family: 'Black Ops One';
-    /* font-family: 'Source Sans Pro', sans-serif; */
+    
     font-size: var(--font-sizeMobile);
     text-shadow: 2px 2px 2px black;
 }td{
@@ -241,6 +241,7 @@ section{
     justify-content: center;
     align-items: center;
     font-size: 30px;
+   
 }
 
 
