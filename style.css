@@ -7,6 +7,10 @@
     --font-sizeDesktop:19px
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body{
     background-color: var(--primary-color);
     color: var(--primary-fontColor);
