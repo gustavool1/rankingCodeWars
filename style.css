@@ -12,7 +12,6 @@ html {
 }
 
 body{
-    background-color: var(--primary-color);
     color: var(--primary-fontColor);
     background-image: url("bg.jpg");
     background-repeat: no-repeat;
