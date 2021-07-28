@@ -21,10 +21,13 @@ body{
     /* font-family: 'Source Sans Pro', sans-serif; */
     font-size: var(--font-sizeMobile);
     text-shadow: 2px 2px 2px black;
+    min-height: calc(100vh - 30px);
+    height: 100%;
+
 }td{
     color: none;
-
 }
+
 a:link{
     text-emphasis: none;
     text-decoration: none;
@@ -210,6 +213,10 @@ section{
         height: 200px;
         width: 100%;
     }
+
+    #retrieving {
+        font-size: var(--font-sizeMobile);
+    }
 }
 
 @media screen and (min-width:701px){
@@ -229,6 +236,10 @@ section{
     section {
         margin-top: 30px
     }
+
+    #retrieving {
+        font-size: 22px;
+    }
 }
 
 #retrieving {
@@ -240,7 +251,9 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 
