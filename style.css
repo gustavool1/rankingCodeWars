@@ -2,9 +2,9 @@
 :root{
     --primary-color:grey;
     --primary-fontColor:white;
-    --font-sizeMobile:18px;
-    --font-SizeFold:15px;
-    --font-sizeDesktop:21px
+    --font-sizeMobile:13px;
+    --font-SizeFold: 11px;
+    --font-sizeDesktop:19px
 }
 
 body{
@@ -12,9 +12,12 @@ body{
     color: var(--primary-fontColor);
     background-image: url("bg.jpg");
     background-repeat: no-repeat;
-    font-family: 'Source Sans Pro', sans-serif;
+    background-size: cover;
+    font-family: 'Black Ops One';
+    /* font-family: 'Source Sans Pro', sans-serif; */
     font-size: var(--font-sizeMobile);
-}a{
+    text-shadow: 2px 2px 2px black;
+}td{
     color: none;
 
 }
@@ -30,7 +33,7 @@ a:visited{
 }
 main{
     width: 90%;
-    margin: 0 auto;
+    margin: 0px auto;
     
 }
 header{
@@ -145,6 +148,23 @@ table tbody td{
     position: relative;
     animation-timing-function: ease-out;
     animation: ranking3 7.5s;
+    color: gold;
+}
+
+.celula1 a:link{
+    color: gold;
+}
+
+.celula1 a:visited{
+    color: gold;
+}
+
+.celula1 a:hover{
+    color: goldenrod;
+}
+
+.celula1:hover{
+    color: goldenrod;
 }
 
 section{
@@ -194,13 +214,16 @@ section{
         
     }
     header{
-        margin-top: 50px;
+        margin-top: 30px;
     }
     main{
-        margin-top: 50px;
+        margin-top: 30px;
     }
     table tbody tr:hover{
         font-size: 23px;
+    }
+    section {
+        margin-top: 30px
     }
 }
 
