@@ -12,19 +12,29 @@ html {
 }
 
 body{
-    background-color: var(--primary-color);
+    background-color: #081012;
     color: var(--primary-fontColor);
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Black Ops One';
-    /* font-family: 'Source Sans Pro', sans-serif; */
     font-size: var(--font-sizeMobile);
     text-shadow: 2px 2px 2px black;
     min-height: calc(100vh - 30px);
     height: 100%;
 
-}td{
+}
+
+#background img{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+  }
+
+td{
     color: none;
 }
 
