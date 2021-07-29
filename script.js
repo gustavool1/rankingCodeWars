@@ -13,8 +13,10 @@ let nomesPont = [
     {nome:"midrick", pontuacao: 0, perfil:"https://www.codewars.com/users/midrick", api_request: "https://www.codewars.com/api/v1/users/midrick"},
     {nome:"Nafly09", pontuacao:0, perfil:"https://www.codewars.com/users/Nafly09", api_request: "https://www.codewars.com/api/v1/users/Nafly09"},
     {nome:"marcelochaves92", pontuacao:0, perfil:"https://www.codewars.com/users/marcelochaves92", api_request: "https://www.codewars.com/api/v1/users/marcelochaves92"},
-    {nome:"RafaelSchug", pontuacao:0, perfil:"https://www.codewars.com/users/rafa.coding.true", api_request: "https://www.codewars.com/api/v1/users/rafa.coding.true"}
-    ]
+    {nome:"RafaelSchug", pontuacao:0, perfil:"https://www.codewars.com/users/rafa.coding.true", api_request: "https://www.codewars.com/api/v1/users/rafa.coding.true"},
+    {nome:"Ângelo Vieira", pontuacao:0, perfil:"https://www.codewars.com/users/%C3%82ngelo%20Vieira", api_request:"https://www.codewars.com/api/v1/users/Ângelo%20Vieira"},
+    {nome:"zvgabrielvz", pontuacao:0, perfil:"https://www.codewars.com/users/zvgabrielvz", api_request:"https://www.codewars.com/api/v1/users/zvgabrielvz"}   
+]
     
     function httpGetAsync(theUrl, obj){
     
