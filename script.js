@@ -10,7 +10,7 @@ let nomesPont = [
     {nome:"larissakoliveira", pontuacao:0, perfil:"https://www.codewars.com/users/larissakoliveira", api_request: "https://www.codewars.com/api/v1/users/larissakoliveira"}, 
     {nome:"smillyxD", pontuacao:0, perfil:"https://www.codewars.com/users/smillyxD", api_request: "https://www.codewars.com/api/v1/users/smillyxD"},
     {nome:"vinapro", pontuacao: 0, perfil:"https://www.codewars.com/users/vinapro", api_request: "https://www.codewars.com/api/v1/users/vinapro"},
-    {nome:"midrick", pontuacao: 0, perfil:"https://www.codewars.com/users/midrick", api_request: "https://www.codewars.com/api/v1/users/midrick"},
+     {nome:"vini144", pontuacao: 0, perfil:"https://www.codewars.com/users/vini144", api_request: "https://www.codewars.com/api/v1/users/vini144"},
     {nome:"Nafly09", pontuacao:0, perfil:"https://www.codewars.com/users/Nafly09", api_request: "https://www.codewars.com/api/v1/users/Nafly09"},
     {nome:"marcelochaves92", pontuacao:0, perfil:"https://www.codewars.com/users/marcelochaves92", api_request: "https://www.codewars.com/api/v1/users/marcelochaves92"},
     {nome:"RafaelSchug", pontuacao:0, perfil:"https://www.codewars.com/users/rafa.coding.true", api_request: "https://www.codewars.com/api/v1/users/rafa.coding.true"},
