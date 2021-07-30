@@ -13,19 +13,24 @@
 
 html {
     overflow-x: hidden;
-}
-
-body{
     background-color: #081012;
     background-image: url(matrix-bg.jpg);
     background-size: cover;
+}
+
+body{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
     color: var(--primary-fontColor);
     font-family: 'Black Ops One';
     font-size: var(--font-sizeMobile);
     text-shadow: 2px 2px 2px black;
     min-height: calc(100vh - 30px);
-    height: 100%;
-
+    background: rgba( 0, 0, 0, 0.01 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.0px );
+    border-radius: 10px;
 }
 
 td{
@@ -43,17 +48,18 @@ a:visited{
     color: rgb(219, 213, 213);;
 }
 main{
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
-    background-color: rgba(0, 0, 0, 0.363);
 }
 header{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     font-weight: bold;
     height: 50px;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.363);
     color: var(--primary-fontColor);
 }
 
@@ -229,12 +235,8 @@ section{
     body{
         font-size: var(--font-SizeFold);
     }
-    
-    header{
-        padding-top: 50px;
-    }
     main{
-        padding-top: 50px;
+        padding-top: 30px;
     }
     table tbody tr:hover{
         font-size: 16px;
@@ -245,7 +247,7 @@ section{
         font-size: var(--font-sizeMobile);
     }
     header{
-        padding-top: 30px;
+        padding-top: 20px;
     }
     main{
         padding-top: 20px;
@@ -267,12 +269,13 @@ section{
 @media screen and (min-width:701px){
     body{
         font-size: var(--font-sizeDesktop);
+        width: 60%;
     }
     header{
-        padding-top: 30px;
+        padding-top: 20px;
     }
     main{
-        padding-top: 30px;
+        padding-top: 80px;
     }
     table tbody tr:hover{
         font-size: 23px;
