@@ -1,8 +1,7 @@
-
     
     function httpGetAsync(theUrl, obj){
     
-        var xmlHttp = new XMLHttpRequest();
+        let xmlHttp = new XMLHttpRequest();
         xmlHttp.onreadystatechange = function() { 
             if (xmlHttp.readyState == 4 && xmlHttp.status == 200){
                 let result = xmlHttp.responseText.split(',')[2];
