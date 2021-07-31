@@ -340,7 +340,7 @@ textarea {
 }
 
 ::selection {
-    background: #b3d4fc;
+    background:rgb(0, 247, 0);
     text-shadow: none;
 }
 
